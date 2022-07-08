@@ -30,6 +30,11 @@ class SecondViewController: UIViewController {
     // MARK: - Method
     
     func setupUI() {
+        print("커밋 테스트")
+        print("커밋 테스트")
+        print("커밋 테스트")
+        print("커밋 테스트")
+        print("커밋 테스트")
         
         changeImageButton.setTitle("이미지 변경 버튼", for: .normal)
         pullDownButton.setTitle("풀 다운 버튼", for: .normal)
