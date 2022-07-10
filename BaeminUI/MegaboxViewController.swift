@@ -12,7 +12,7 @@ class MegaboxViewController: UIViewController {
     
     @IBOutlet weak var movieLisftView: UIView!
     @IBOutlet weak var movieListStackView: UIStackView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D01F24882877B5E2000477B0 /* GithubTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F24872877B5E2000477B0 /* GithubTestController.swift */; };
 		D01F248A2877C511000477B0 /* AutoLayoutTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */; };
+		D04B0569287AD3C200F5D67D /* KakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */; };
 		D06C8ED32873DAAC005F174F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06C8ED22873DAAC005F174F /* SecondViewController.swift */; };
 		D0CC89492872BF71005C687A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC89482872BF71005C687A /* AppDelegate.swift */; };
 		D0CC894B2872BF71005C687A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC894A2872BF71005C687A /* SceneDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		D01F24872877B5E2000477B0 /* GithubTestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTestController.swift; sourceTree = "<group>"; };
 		D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTestViewController.swift; sourceTree = "<group>"; };
+		D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoProfileViewController.swift; sourceTree = "<group>"; };
 		D06C8ED22873DAAC005F174F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D0CC89452872BF71005C687A /* BaeminUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeminUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CC89482872BF71005C687A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				D01F24872877B5E2000477B0 /* GithubTestController.swift */,
 				D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */,
 				D0FC803428782700001EC52F /* MegaboxViewController.swift */,
+				D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */,
 				D0CC894E2872BF71005C687A /* Main.storyboard */,
 				D0CC89512872BF72005C687A /* Assets.xcassets */,
 				D0CC89532872BF72005C687A /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04B0569287AD3C200F5D67D /* KakaoProfileViewController.swift in Sources */,
 				D0FC803528782700001EC52F /* MegaboxViewController.swift in Sources */,
 				D01F24882877B5E2000477B0 /* GithubTestController.swift in Sources */,
 				D0CC894D2872BF71005C687A /* MainViewController.swift in Sources */,
@@ -303,14 +307,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW2RLJT734;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BaeminUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "배달의 민족";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,14 +338,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PW2RLJT734;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BaeminUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "배달의 민족";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
