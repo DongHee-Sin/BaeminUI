@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sHR-gA-nky">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O7Z-n7-DSL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -1012,30 +1012,30 @@
                                                         <rect key="frame" x="0.0" y="64.5" width="414" height="349.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6Wc-LY-990">
-                                                                <rect key="frame" x="0.0" y="0.0" width="550.5" height="349.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="524" height="332"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H45-Qg-zPA">
-                                                                        <rect key="frame" x="15" y="8" width="167" height="333.5"/>
+                                                                        <rect key="frame" x="15" y="8" width="158" height="316"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yah-pW-447">
-                                                                                <rect key="frame" x="10" y="292.5" width="72.5" height="31"/>
+                                                                                <rect key="frame" x="10" y="275" width="72.5" height="31"/>
                                                                                 <state key="normal" title="Button"/>
                                                                                 <buttonConfiguration key="configuration" style="plain" title="바로예매"/>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예매율 47.9% · ⭐️7.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uj-lK-1Hw">
-                                                                                <rect key="frame" x="10" y="266.5" width="147" height="16"/>
+                                                                                <rect key="frame" x="10" y="249" width="138" height="16"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="토르: 러브 앤 썬더" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FqW-Yo-Lme">
-                                                                                <rect key="frame" x="10" y="240.5" width="147" height="18"/>
+                                                                                <rect key="frame" x="10" y="223" width="138" height="18"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="수학자포스터" translatesAutoresizingMaskIntoConstraints="NO" id="gVi-5f-qAY">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="167" height="225.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="158" height="208"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1056,27 +1056,28 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WX1-qz-lvU">
-                                                                        <rect key="frame" x="192" y="8" width="166.5" height="333.5"/>
+                                                                        <rect key="frame" x="183" y="8" width="158" height="316"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IeH-Ox-y6d">
-                                                                                <rect key="frame" x="10" y="292.5" width="72.5" height="31"/>
+                                                                                <rect key="frame" x="10" y="275" width="72.5" height="31"/>
+                                                                                <color key="backgroundColor" red="0.31116468412835185" green="0.74306441326530615" blue="0.835406037414966" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                                 <state key="normal" title="Button"/>
                                                                                 <buttonConfiguration key="configuration" style="plain" title="바로예매"/>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예매율 31.6% · ⭐️9,7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2As-w5-J8n">
-                                                                                <rect key="frame" x="10" y="266.5" width="146.5" height="16"/>
+                                                                                <rect key="frame" x="10" y="249" width="138" height="16"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="탑건: 매버릭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4UT-Fj-6o7">
-                                                                                <rect key="frame" x="10" y="240.5" width="146.5" height="18"/>
+                                                                                <rect key="frame" x="10" y="223" width="138" height="18"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="수학자포스터" translatesAutoresizingMaskIntoConstraints="NO" id="HOl-R0-KoJ">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="166.5" height="225.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="158" height="208"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1097,27 +1098,27 @@
                                                                         </constraints>
                                                                     </view>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8r9-wN-H9F">
-                                                                        <rect key="frame" x="368.5" y="8" width="167" height="333.5"/>
+                                                                        <rect key="frame" x="351" y="8" width="158" height="316"/>
                                                                         <subviews>
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EO8-ce-0Et">
-                                                                                <rect key="frame" x="10" y="292.5" width="72.5" height="31"/>
+                                                                                <rect key="frame" x="10" y="275" width="72.5" height="31"/>
                                                                                 <state key="normal" title="Button"/>
                                                                                 <buttonConfiguration key="configuration" style="plain" title="바로예매"/>
                                                                             </button>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="예매율 8.3% · ⭐️8.8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRq-Wx-Evy">
-                                                                                <rect key="frame" x="10" y="266.5" width="147" height="16"/>
+                                                                                <rect key="frame" x="10" y="249" width="138" height="16"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="헤어질 결심" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRb-kj-EP8">
-                                                                                <rect key="frame" x="10" y="240.5" width="147" height="18"/>
+                                                                                <rect key="frame" x="10" y="223" width="138" height="18"/>
                                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                                                                 <nil key="textColor"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="수학자포스터" translatesAutoresizingMaskIntoConstraints="NO" id="Sjd-1A-bmd">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="167" height="225.5"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="158" height="208"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1148,7 +1149,7 @@
                                                         <constraints>
                                                             <constraint firstItem="6Wc-LY-990" firstAttribute="bottom" secondItem="7Uj-ce-tUB" secondAttribute="bottom" id="2hq-dH-cfd"/>
                                                             <constraint firstItem="7Uj-ce-tUB" firstAttribute="top" secondItem="6Wc-LY-990" secondAttribute="top" id="2xT-e8-WT9"/>
-                                                            <constraint firstItem="6Wc-LY-990" firstAttribute="height" secondItem="QvZ-QW-qMC" secondAttribute="height" id="O54-Om-VhO"/>
+                                                            <constraint firstItem="6Wc-LY-990" firstAttribute="height" secondItem="QvZ-QW-qMC" secondAttribute="height" multiplier="0.95" id="O54-Om-VhO"/>
                                                             <constraint firstItem="6Wc-LY-990" firstAttribute="leading" secondItem="7Uj-ce-tUB" secondAttribute="leading" id="tYk-jV-SsZ"/>
                                                             <constraint firstItem="6Wc-LY-990" firstAttribute="trailing" secondItem="7Uj-ce-tUB" secondAttribute="trailing" id="tfF-ua-vwb"/>
                                                         </constraints>
@@ -1240,6 +1241,9 @@
                     <connections>
                         <outlet property="movieLisftView" destination="L6a-NI-ZNr" id="PmI-yE-uqm"/>
                         <outlet property="movieListStackView" destination="6Wc-LY-990" id="cQM-hU-a30"/>
+                        <outletCollection property="movieReservationButton" destination="Yah-pW-447" collectionClass="NSMutableArray" id="VJb-9P-2cw"/>
+                        <outletCollection property="movieReservationButton" destination="IeH-Ox-y6d" collectionClass="NSMutableArray" id="MZm-OV-k7B"/>
+                        <outletCollection property="movieReservationButton" destination="EO8-ce-0Et" collectionClass="NSMutableArray" id="dO1-dH-FhN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="76J-pm-1Dk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

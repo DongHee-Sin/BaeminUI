@@ -13,6 +13,9 @@ class MegaboxViewController: UIViewController {
     @IBOutlet weak var movieLisftView: UIView!
     @IBOutlet weak var movieListStackView: UIStackView!
 
+    @IBOutlet var movieReservationButton: [UIButton]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +24,12 @@ class MegaboxViewController: UIViewController {
         movieListStackView.subviews.forEach({
             addShadow($0, color: UIColor.lightGray.cgColor, width: 5, height: 10, alpha: 0.5, radius: 15)
             addRadiusToUIView($0, radiusSize: $0.frame.width / 10)
+        })
+        
+        movieReservationButton.forEach({
+            addRadiusToUIView($0, radiusSize: $0.frame.height / 3)
+            $0.backgroundColor = UIColor.cyan
+            $0.tintColor = .white
         })
     }
 
