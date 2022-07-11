@@ -11,6 +11,8 @@
 		D01F248A2877C511000477B0 /* AutoLayoutTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */; };
 		D04B0569287AD3C200F5D67D /* KakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */; };
 		D06C8ED32873DAAC005F174F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06C8ED22873DAAC005F174F /* SecondViewController.swift */; };
+		D0AF9B37287C254A00BC6743 /* LifeCycleTestViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF9B36287C254A00BC6743 /* LifeCycleTestViewController1.swift */; };
+		D0AF9B39287C25B700BC6743 /* LifeCycleTestViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF9B38287C25B700BC6743 /* LifeCycleTestViewController2.swift */; };
 		D0CC89492872BF71005C687A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC89482872BF71005C687A /* AppDelegate.swift */; };
 		D0CC894B2872BF71005C687A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC894A2872BF71005C687A /* SceneDelegate.swift */; };
 		D0CC894D2872BF71005C687A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC894C2872BF71005C687A /* MainViewController.swift */; };
@@ -25,6 +27,8 @@
 		D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTestViewController.swift; sourceTree = "<group>"; };
 		D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoProfileViewController.swift; sourceTree = "<group>"; };
 		D06C8ED22873DAAC005F174F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D0AF9B36287C254A00BC6743 /* LifeCycleTestViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTestViewController1.swift; sourceTree = "<group>"; };
+		D0AF9B38287C25B700BC6743 /* LifeCycleTestViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTestViewController2.swift; sourceTree = "<group>"; };
 		D0CC89452872BF71005C687A /* BaeminUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeminUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0CC89482872BF71005C687A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0CC894A2872BF71005C687A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 				D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */,
 				D0FC803428782700001EC52F /* MegaboxViewController.swift */,
 				D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */,
+				D0AF9B36287C254A00BC6743 /* LifeCycleTestViewController1.swift */,
+				D0AF9B38287C25B700BC6743 /* LifeCycleTestViewController2.swift */,
 				D0CC894E2872BF71005C687A /* Main.storyboard */,
 				D0CC89512872BF72005C687A /* Assets.xcassets */,
 				D0CC89532872BF72005C687A /* LaunchScreen.storyboard */,
@@ -153,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0AF9B39287C25B700BC6743 /* LifeCycleTestViewController2.swift in Sources */,
 				D04B0569287AD3C200F5D67D /* KakaoProfileViewController.swift in Sources */,
 				D0FC803528782700001EC52F /* MegaboxViewController.swift in Sources */,
+				D0AF9B37287C254A00BC6743 /* LifeCycleTestViewController1.swift in Sources */,
 				D01F24882877B5E2000477B0 /* GithubTestController.swift in Sources */,
 				D0CC894D2872BF71005C687A /* MainViewController.swift in Sources */,
 				D0CC89492872BF71005C687A /* AppDelegate.swift in Sources */,

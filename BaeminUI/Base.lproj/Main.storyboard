@@ -1233,7 +1233,7 @@
                                 <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="default"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <segue destination="Z80-Lo-1Au" kind="show" id="Ke5-Le-XxM"/>
+                                    <segue destination="Z80-Lo-1Au" kind="presentation" id="bWg-oC-4Zp"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Item" image="tag" catalog="system" style="plain" id="a1o-V9-sTy">
@@ -1253,10 +1253,10 @@
             </objects>
             <point key="canvasLocation" x="897" y="826"/>
         </scene>
-        <!--View Controller-->
+        <!--Life Cycle Test View Controller1-->
         <scene sceneID="jB9-Kq-vfZ">
             <objects>
-                <viewController id="hJh-wc-gkE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LifeCycleTestViewController1" id="hJh-wc-gkE" customClass="LifeCycleTestViewController1" customModule="BaeminUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0up-vO-c0w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1292,16 +1292,16 @@
             </objects>
             <point key="canvasLocation" x="410" y="1572"/>
         </scene>
-        <!--View Controller-->
+        <!--Life Cycle Test View Controller2-->
         <scene sceneID="qeh-t0-YKK">
             <objects>
-                <viewController id="Z80-Lo-1Au" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LifeCycleTestViewController2" id="Z80-Lo-1Au" customClass="LifeCycleTestViewController2" customModule="BaeminUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="07M-wO-5sI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="HSl-vd-blJ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
                                 <color key="tintColor" systemColor="systemPinkColor"/>
                             </imageView>
                         </subviews>
