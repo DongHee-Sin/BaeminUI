@@ -31,6 +31,8 @@ class MegaboxViewController: UIViewController {
             $0.backgroundColor = UIColor.cyan
             $0.tintColor = .white
         })
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
 
     

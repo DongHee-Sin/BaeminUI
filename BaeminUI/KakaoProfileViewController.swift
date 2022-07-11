@@ -17,12 +17,7 @@ class KakaoProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        userInfoButtonList.forEach({
-//            $0.titleLabel?.adjustsFontSizeToFitWidth = true
-//            $0.titleLabel?.minimumScaleFactor = 0.5
-            $0.titleLabel?.numberOfLines = 1
-            
-        })
+        userInfoButtonList.forEach({$0.titleLabel?.numberOfLines = 1})
         
         profileImageButton.imageView?.contentMode = .scaleAspectFill
         
