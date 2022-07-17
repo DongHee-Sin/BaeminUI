@@ -11,6 +11,7 @@
 		D01F248A2877C511000477B0 /* AutoLayoutTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */; };
 		D04B0569287AD3C200F5D67D /* KakaoProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */; };
 		D06C8ED32873DAAC005F174F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06C8ED22873DAAC005F174F /* SecondViewController.swift */; };
+		D088D8DC2883B96700B79F39 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D088D8DB2883B96700B79F39 /* Extension.swift */; };
 		D0AF9B37287C254A00BC6743 /* LifeCycleTestViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF9B36287C254A00BC6743 /* LifeCycleTestViewController1.swift */; };
 		D0AF9B39287C25B700BC6743 /* LifeCycleTestViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AF9B38287C25B700BC6743 /* LifeCycleTestViewController2.swift */; };
 		D0CC89492872BF71005C687A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CC89482872BF71005C687A /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 		D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTestViewController.swift; sourceTree = "<group>"; };
 		D04B0568287AD3C200F5D67D /* KakaoProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoProfileViewController.swift; sourceTree = "<group>"; };
 		D06C8ED22873DAAC005F174F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D088D8DB2883B96700B79F39 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		D0AF9B36287C254A00BC6743 /* LifeCycleTestViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTestViewController1.swift; sourceTree = "<group>"; };
 		D0AF9B38287C25B700BC6743 /* LifeCycleTestViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTestViewController2.swift; sourceTree = "<group>"; };
 		D0CC89452872BF71005C687A /* BaeminUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaeminUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D088D8DA2883B7B800B79F39 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC89482872BF71005C687A /* AppDelegate.swift */,
+				D0CC894A2872BF71005C687A /* SceneDelegate.swift */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
 		D0CC893C2872BF71005C687A = {
 			isa = PBXGroup;
 			children = (
@@ -70,9 +81,9 @@
 		D0CC89472872BF71005C687A /* BaeminUI */ = {
 			isa = PBXGroup;
 			children = (
-				D0CC89482872BF71005C687A /* AppDelegate.swift */,
-				D0CC894A2872BF71005C687A /* SceneDelegate.swift */,
+				D088D8DA2883B7B800B79F39 /* LifeCycle */,
 				D0CC894C2872BF71005C687A /* MainViewController.swift */,
+				D088D8DB2883B96700B79F39 /* Extension.swift */,
 				D06C8ED22873DAAC005F174F /* SecondViewController.swift */,
 				D01F24872877B5E2000477B0 /* GithubTestController.swift */,
 				D01F24892877C511000477B0 /* AutoLayoutTestViewController.swift */,
@@ -163,6 +174,7 @@
 				D04B0569287AD3C200F5D67D /* KakaoProfileViewController.swift in Sources */,
 				D0FC803528782700001EC52F /* MegaboxViewController.swift in Sources */,
 				D0AF9B37287C254A00BC6743 /* LifeCycleTestViewController1.swift in Sources */,
+				D088D8DC2883B96700B79F39 /* Extension.swift in Sources */,
 				D01F24882877B5E2000477B0 /* GithubTestController.swift in Sources */,
 				D0CC894D2872BF71005C687A /* MainViewController.swift in Sources */,
 				D0CC89492872BF71005C687A /* AppDelegate.swift in Sources */,
